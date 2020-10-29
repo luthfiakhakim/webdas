@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form PPDB</title>
+    <link rel="icon" href="img/logo-udinus.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="img/logo-tutwuri.png" height="100px">
+    </div>
+        <h2 class="judul">FORMULIR PPDB JALUR ZONASI TAHUN 2020</h2>
+    <div class="konten">
+    <div class="header">
+    <div class="lock"></div>
+    </div>
+    <div class="artikel">
+        <fieldset><legend>INFO PENDAFTARAN</legend>
+            <div class="grup">
+                <label for="NISN">NISN</label>
+                <input type="text" pattern="[1-9]" maxlength="20" name="NISN">
+            </div>
+            <div class="grup">
+                <label for="asal">Asal Sekolah</label>
+                <input type="text" name="asal">
+            </div>
+            <div class="grup">
+                <label for="lulus">Tahun Lulus</label>
+                <input type="text" name="lulus">
+            </div>
+                <h6 style="margin-top: 0px; margin-bottom: 0px; color: red;">lampirkan scan ijazah</h6>
+                <input classs="buttton" type="file" name="foto" accept="image/*"> 
+        </fieldset>
+        <fieldset><legend>DATA CALON PESERTA</legend>
+            <div class="grup">
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" name="nama">
+            </div>
+            <div class="grup">
+                <label for="NIK">NIK</label>
+                <input type="text" pattern="[1-9]" maxlength="20" name="NIK">
+            </div>
+            <div class="grup">
+                <label for="ttl">Tempat Lahir</label>
+                <input type="text" name="ttl">
+            </div>
+            <div class="grup">
+                <label for="ttl">Tanggal Lahir</label>
+                <input type="date" name="ttl">
+            </div>
+            <div class="grup">
+                <label for="umur">Umur</label>
+                <input type="number" name="umur" min="1" max="20" width="20px">
+            </div>
+                <h6 style="margin-top: 0px; margin-bottom: 0px; color: red;">lampirkan scan akta kelahiran</h6>
+                <input classs="buttton" type="file" name="foto" accept="image/*"> 
+            <div class="grup-offset">
+                <label for="JK">Jenis Kelamin<br></label>
+                <input type="radio" name="JK" value="Laki-Laki">Laki-laki
+                <input type="radio" name="JK" value="Perempuan">Perempuan
+            </div>
+            <div class="grup">
+                <label for="alamat">Alamat Lengkap</label><br>
+                <textarea id="alamat" name="alamat"></textarea>
+            </div>
+            <div class="grup">
+                <label for="desa">Desa/Kelurahan</label>
+                <input type="text" name="desa">
+            </div>
+            <div class="grup">
+                <label for="kecamatan">Kecamatan</label>
+                <input type="text" name="kecamatan">
+            </div>
+            <div class="grup">
+                <label for="kabupaten">Kabupaten</label>
+                <input type="text" name="kabupaten">
+            </div>
+            <div class="grup">
+                <label for="provinsi">Provinsi</label>
+                <input type="text" name="provinsi">
+            </div>
+            <div class="grup">
+                <label for="email">Email Aktif</label>
+                <input type="email" name="email">
+            </div>
+        </fieldset>
+        <fieldset><legend>DATA ORANG TUA</legend>
+            <div class="grup">
+                <label for="KK">Nomor Kartu Kartu Keluarga</label>
+                <input type="text" pattern="[1-9]" maxlength="20" name="KK">
+            </div>
+                <h6 style="margin-top: 0px; margin-bottom: 0px; color: red;">lampirkan scan KK</h6>
+                <input classs="buttton" type="file" name="foto" accept="image/*">
+            <div class="grup">
+                <label for="ayah">Nama Ayah Kandung</label>
+                <input type="text" name="ayah">
+            </div>
+            <div class="grup">
+                <label for="agamaayah">Agama</label>
+                <select name="agamaibu">
+                    <option value="0">-pilih-</option>
+                    <option value="1">Islam</option>
+                    <option value="2">Katholik</option>
+                    <option value="3">Kristen</option>
+                    <option value="4">Hindu</option>
+                    <option value="5">Budha</option>
+                    <option value="6">Konghucu</option>
+                    <option value="7">-Lainnya</option>
+                </select>
+            </div>
+            <div class="grup">
+                <label for="pekerjaanayah">Pekerjaan</label>
+                <input type="text" name="pekerjaanayah">
+            </div>
+            <div class="grup">
+                <label for="ibu">Nama Ibu Kandung</label>
+                <input type="text" name="ibu">
+            </div>
+            <div class="grup">
+                <label for="agamaibu">Agama</label>
+                <select name="agamaibu">
+                    <option value="0">-pilih-</option>
+                    <option value="1">Islam</option>
+                    <option value="2">Katholik</option>
+                    <option value="3">Kristen</option>
+                    <option value="4">Hindu</option>
+                    <option value="5">Budha</option>
+                    <option value="6">Konghucu</option>
+                    <option value="7">-Lainnya</option>
+                </select>
+            </div>
+            <div class="grup">
+                <label for="pekerjaanibu">Pekerjaan</label>
+                <input type="text" name="pekerjaanibu">
+            </div>
+            <div class="grup">
+                <label for="alamatortu">Alamat Orang Tua</label><br>
+                <textarea id="alamat" name="alamat"></textarea>
+            </div>
+            <div class="grup">
+                <label for="desa">Desa/Kelurahan</label>
+                <input type="text" name="desa">
+            </div>
+            <div class="grup">
+                <label for="kecamatan">Kecamatan</label>
+                <input type="text" name="kecamatan">
+            </div>
+            <div class="grup">
+                <label for="kabupaten">Kabupaten</label>
+                <input type="text" name="kabupaten">
+            </div>
+            <div class="grup">
+                <label for="provinsi">Provinsi</label>
+                <input type="text" name="provinsi">
+            </div>
+            <a href="submit.html"><button class="button">SUBMIT</button></a>
+            <a href="Lat-form-ppdb.html"><button class="cancelbutton">BATAL</button></a>
+        </fieldset>
+    <div class="footer">
+    <h5>©2020 - Luthfi Abdul Khakim - UDINUS</h5>
+    </div>
+    </form>
+    </div>
+    </div>
+</body>
+</html>
